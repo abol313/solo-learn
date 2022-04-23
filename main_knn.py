@@ -31,8 +31,7 @@ from solo.args.setup import parse_args_knn
 from solo.methods import METHODS
 from solo.utils.classification_dataloader import (
     prepare_dataloaders,
-    prepare_datasets,
-    prepare_transforms,
+    prepare_datasets
 )
 from solo.utils.knn import WeightedKNNClassifier
 
